@@ -9,8 +9,8 @@ Exercises
 5. How would you detect a winner?
 """
 
-from turtle import *
-
+from turtle import bgcolor, up, goto, dot, update, done, \
+    setup, hideturtle, tracer, onscreenclick
 from freegames import line
 
 turns = {'red': 'yellow', 'yellow': 'red'}
